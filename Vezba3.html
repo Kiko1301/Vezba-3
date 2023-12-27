@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Bootstrap Example</title>
+  <style>
+    /* Set colors for rows and columns */
+    .row1 { background-color: #e57373; }
+    .row2 { background-color: #81c784; }
+    .col1 { background-color: #64b5f6; }
+    .col2 { background-color: #ff8a65; }
+    .col3 { background-color: #d581af; }
+    .col4 { background-color: #aed581; }
+    .col5 { background-color: rgb(129, 210, 213); }
+    .col6 { background-color: rgb(255, 0, 140); }
+
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+
+    <!-- Row 1 -->
+    <div class="row row1">
+      <!-- Column 1 -->
+      <div class="col-12 col-md-4 col1">
+        <p class="text-center text-md-left text-white">Column 1</p>
+      </div>
+      <!-- Column 2 -->
+      <div class="col-12 col-md-4 order-first order-md-2 col2">
+        <p class="text-center text-md-center text-white">Column 2(Osnovna)</p>
+      </div>
+      <!-- Column 3 -->
+      <div class="col-12 col-md-4 order-md-3 col3">
+        <p class="text-center text-md-right text-white">Column 3</p>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row row2">
+      <!-- Column 4 -->
+      <div class="col-12 col-md-4 col4">
+        <p class="text-center text-md-left text-white">Column 1</p>
+      </div>
+      <!-- Column 5 -->
+      <div class="col-12 col-md-4 order-first order-md-2 col5">
+        <p class="text-center text-md-center text-white">Column 2(Osnovna)</p>
+      </div>
+      <!-- Column 6 -->
+      <div class="col-12 col-md-4 order-md-3 col6">
+        <p class="text-center text-md-right text-white">Column 3</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
